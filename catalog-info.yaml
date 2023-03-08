@@ -11,6 +11,9 @@ metadata:
     - backend
   annotations:
     github.com/project-slug: silin-bestegg/go-backstage-template
+    aws.amazon.com/aws-codepipeline: arn:aws:codepipeline:us-west-2:111111111:example-pipeline
+    aws.amazon.com/aws-codebuild-project: arn:aws:codebuild:us-west-2:1111111111:project/example-project
+    aws.amazon.com/aws-codedeploy-group: arn:aws:codedeploy:us-west-2:1111111111:deploymentgroup:example/example-group
 spec:
   type: service
   lifecycle: production
