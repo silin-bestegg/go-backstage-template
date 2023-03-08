@@ -9,6 +9,8 @@ metadata:
     - go
     - web
     - backend
+  annotations:
+    github.com/project-slug: silin-bestegg
 spec:
   type: service
   lifecycle: production
