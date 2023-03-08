@@ -1,0 +1,15 @@
+# nonk8s
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Golang project template
+  description: Golang service template
+  tags:
+    - golang
+    - go
+    - web
+    - backend
+spec:
+  type: service
+  lifecycle: production
+  owner: your-team
