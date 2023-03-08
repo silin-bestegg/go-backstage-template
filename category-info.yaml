@@ -10,7 +10,7 @@ metadata:
     - web
     - backend
   annotations:
-    github.com/project-slug: silin-bestegg
+    github.com/project-slug: silin-bestegg/go-backstage-template
 spec:
   type: service
   lifecycle: production
